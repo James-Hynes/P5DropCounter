@@ -20,6 +20,7 @@ function draw() { // this is run ~60 times per second
 	textSize(32); // font size 32
 	text(`Drops: ${numberDrops}`, width / 2, height / 2); // Draw the text 'Drops: number of drops' at x = 1/2 the canvas width and y = 1/2 the canvas height
 	text(`mL: ${volume}`, width / 2, (height / 2) + 50); // Draw the text 'mL: total volume' at x = 1/2 the canvas width and y = 1/2 the canvas height + 50
+	text("Press the Down Arrow to begin filtration", width / 2, (height / 2) + 150);
 }
 
 function keyPressed() { // when a key is pressed
